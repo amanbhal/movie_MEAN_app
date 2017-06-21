@@ -1,0 +1,55 @@
+body{
+  font-family: 'Concert One', cursive;
+}
+
+.latest-movies{
+  background-color: #062f4f;
+  color: white;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.navigation{
+  margin-bottom: 0px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.latest-movies a{
+  color: yellow;
+  text-decoration: none;
+}
+
+.latest-movies a:hover{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.facets{
+  float: left;
+  background-color: #4484CE;
+  width: 20%;
+  min-height: 70%;
+  color: white;
+}
+
+.best-rated{
+  overflow: hidden;
+  background-color: #F5F5F5;
+  width: 80%;
+  min-height: 70%;
+}
+
+.no-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.facets li:hover{
+  cursor: pointer;
+}

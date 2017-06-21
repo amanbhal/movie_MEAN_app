@@ -1,0 +1,6 @@
+<div class="container latest-movies full-width">
+  <h1 style="text-align: center">LATEST MOVIES</h1>
+  <div class="inline col-md-4" ng-repeat="movie in mc.movies | orderBy: -mc.orderByDate | limitTo: 6">
+    <display-movie></display-movie>
+  </div>
+</div>

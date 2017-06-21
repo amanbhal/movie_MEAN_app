@@ -1,0 +1,10 @@
+<!-- just provide movie object containing information on one movie from item database table -->
+
+<h2><a href="{{movie.imdb_url}}">{{movie.movie_title}}</a></h2>
+<p>{{movie.release_date}}</p>
+<p>Genre: <span ng-show="movie.action">Action </span><span ng-show="movie.adventure"> Adventure </span><span ng-show="movie.animation"> Animation </span>
+  <span ng-show="movie.childrens"> Children's </span><span ng-show="movie.comedy"> Comedy </span><span ng-show="movie.crime"> Crime </span>
+  <span ng-show="movie.documentary"> Documentary </span><span ng-show="movie.drama"> Drama </span><span ng-show="movie.fantasy"> Fantasy </span>
+  <span ng-show="movie.film_noir"> Film-Noir </span><span ng-show="movie.horror"> Horror </span><span ng-show="movie.musical"> Musical </span>
+  <span ng-show="movie.mystery"> Mystery </span><span ng-show="movie.romance"> Romance </span><span ng-show="movie.sci_fi"> Sci-Fi </span>
+  <span ng-show="movie.thriller"> Thriller </span><span ng-show="movie.war"> War </span><span ng-show="movie.western"> Western </span></p>
